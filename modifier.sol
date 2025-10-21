@@ -15,6 +15,13 @@ contract testModifier {
         _; 
     }
 
+    modifier noReentrancy() {
+        require(!locked, "No reentrancy"); // Precisa estar falso, de forma a manter 1 instância.
+        locked = true;
+        _;
+        locked = false;
+    }
+
     modifier validAddress(address _addr) {
         require(_addr != address(0), "Invalid address"); // Recebe como parâmetro a condição e, após a virgula, o retorno caso Falso
         _; // O _ é um placeholder para a função que vai ser executada
@@ -23,5 +30,12 @@ contract testModifier {
     function changeOwner(address _newOwner) public onlyOwner validAddress(_newOwner) { // Já utiliza os modifiers, fazendo as verificações antes do código.
         owner = _newOwner;
     }
-}
 
+    function decrement(uint256 i) public noReentrancy {
+        x -= i;
+
+        if (i > 1) {
+            decrement(i - 1);
+        }
+    }
+}
