@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.2;
 
-contract testModifier {
+contract TestModifier {
     address public owner;
     uint256 public x = 10;
     bool public locked;

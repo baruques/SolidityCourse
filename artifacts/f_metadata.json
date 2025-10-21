@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"inheritance.sol": "f"
+			"inheritance.sol": "F"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"inheritance.sol": {
-			"keccak256": "0xa47b2033e1d868e70cf01a1ca1a0e4f4ade8d24bc8bb8492e3735763ecf1ef37",
+			"keccak256": "0xccc61e6224ab7cc034603496aa73aca6cad3cbfab97e112b1ebe1d79f18dd1ee",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://905e0d5537ac6ce54b12e98178c6b557ea3fcd357bfb024858f4b0746be141a3",
-				"dweb:/ipfs/QmUwV2nNNsrrMMWuQCCW1G54STcDUm8iz9q6baYfeMPH9x"
+				"bzz-raw://41b8479851b76e4b1e58c8f4cfab7cd19746d8cefefa209f9b025988776fe477",
+				"dweb:/ipfs/QmPvc6kqVw3Mffp742zohBjdmWmzkAGkDDgik2aJsrC6hk"
 			]
 		}
 	},

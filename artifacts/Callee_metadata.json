@@ -6,20 +6,21 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_newOwner",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
 					}
 				],
-				"name": "changeOwner",
-				"outputs": [],
+				"name": "setX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -27,36 +28,34 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "i",
+						"name": "_x",
 						"type": "uint256"
 					}
 				],
-				"name": "decrement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "locked",
+				"name": "setXAndSendEther",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "value",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -89,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"modifier.sol": "TestModifier"
+			"othercontract.sol": "Callee"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -103,12 +102,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"modifier.sol": {
-			"keccak256": "0x57cabdf00005efb7561e7e5ec17331f7f8bedc10043be33b9849ac14d2ad9f37",
+		"othercontract.sol": {
+			"keccak256": "0x8654160fd1c145fa761a193fbf5c94a36279bfe6c802f78a1eef2455c5ff939a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e1261fcedc83c8b16a829d2d4ea130b2d6aad99c61a7709a02fc204aa5a3e4dc",
-				"dweb:/ipfs/QmRtn5uB6BHz1uWg7mqa6vzvLdrBRkee1pzpkipdNgk8jP"
+				"bzz-raw://74fc9c8b4f98039ec311285b7c9ad4ceadcef4b60de802db1c63113e1e51e24d",
+				"dweb:/ipfs/QmQ26ZTuVESwExJmckAWHCot8rccGTYVNxJBnP1g1juBNx"
 			]
 		}
 	},

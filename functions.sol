@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-contract exampleFunctions{
+contract ExampleFunctions{
     // Setting global variables
     uint256 public num;
     string public name;

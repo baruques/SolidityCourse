@@ -146,7 +146,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"functions.sol": "exampleFunctions"
+			"functions.sol": "ExampleFunctions"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -161,11 +161,11 @@
 	},
 	"sources": {
 		"functions.sol": {
-			"keccak256": "0x34fd143d0dfc152c6a492b1a02758950c8f9fc32038608039e7935d4c39d6b66",
+			"keccak256": "0x247054cf94b95db4d7d111c69fe31cb1f9bc046f99367865152e6d1cf9026cd3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://594366390b62458afa0689eb88c43d2f596d3b208afa7384e69cfeed149efc52",
-				"dweb:/ipfs/QmPJEjRnuH4fb9yywKt2qQWpSwdhWKu9qHVQqam87ue82L"
+				"bzz-raw://0747db5ecc45703bc4ac8eb982743b92e8fcc50a73173621b0e8b050b16a1a0c",
+				"dweb:/ipfs/QmRhAB4qiK9RT44CJN37jjhykodRtB8n79x1SvPPnyhqKo"
 			]
 		}
 	},
