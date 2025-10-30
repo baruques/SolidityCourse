@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"gasgolf.sol": "GasGolf"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"gasgolf.sol": {
+			"keccak256": "0x94f03d1d375983114dc5956fbbc92e518b82ed5139ffde095aa20126c45be63f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2b419d7a0ce807f20e0a622692fe9a31cb3137c22845454d8b0fd6d1e5f2c61",
+				"dweb:/ipfs/Qmaej6CwmD4pSs9MVUZa1gqn2wQTG6ndMiMcw8S4K6yn8z"
+			]
+		}
+	},
+	"version": 1
+}
