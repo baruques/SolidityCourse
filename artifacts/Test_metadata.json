@@ -794,11 +794,11 @@
 			]
 		},
 		"importsAndForLoops.sol": {
-			"keccak256": "0xbd35280de47ef8cb07f694cb7e339371ba3b8a3fa00fdf6af2b8034c1b6f1395",
+			"keccak256": "0x0d08942e1a74df063ee07c131b9f3ca1f7cae584222b6690f51ae93b5da9cda6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7b86c0f690d7033988755c0e33bff19101c92193a8a4d24d8a81a6ce366d6287",
-				"dweb:/ipfs/QmfGBLuYMv7PdqVCthYk3gddX2ZoFPzx2fkrP49JPyd5S9"
+				"bzz-raw://de1fa5a439839dc85ad145bc2e3e0edc52a6170268def44ceaf53b913f49f44a",
+				"dweb:/ipfs/QmdAvY6f47aqHvLy9v9XBt85aTj5CLCwaMNyg3sJe1pMXD"
 			]
 		}
 	},

@@ -41,7 +41,5 @@ contract Test is ERC721 {
             _safeMint(_receiver, supply.current());
         }
     }
-
-
 }
 
